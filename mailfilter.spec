@@ -18,7 +18,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		specflags_ia32	"-fomit-frame-pointer"
+%define		specflags_ia32	 -fomit-frame-pointer 
 
 %description
 Mailfilter is a flexible utility for Unix (-like) operating systems to
