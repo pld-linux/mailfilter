@@ -1,14 +1,14 @@
 # Polish translations for Mailfilter
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Mailfilter package.
-# GoTaR <gotar@poczta.onet.pl>, 2003.
+# GoTaR <gotar@pld-linux.org>, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mailfilter 0.5.1\n"
 "POT-Creation-Date: 2003-04-12 16:12+0200\n"
 "PO-Revision-Date: 2003-07-31 10:13+0002\n"
-"Last-Translator: GoTaR <gotar@poczta.onet.pl>\n"
+"Last-Translator: GoTaR <gotar@pld-linux.org>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid ""
 "This is free software; see the source for copying conditions.  There is NO"
 msgstr ""
-"To jest wolne oprogramowanie; warunki rozrpowadzania w ¼ród³ach. Nie ma ¯ADNEJ"
+"To jest wolne oprogramowanie; warunki rozprowadzania w ¼ród³ach. Nie ma ¯ADNEJ"
 
 #: src/mailfilter.cc:156
 msgid ""
