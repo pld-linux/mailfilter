@@ -2,12 +2,13 @@ Summary:	Antispam utility
 Summary(pl):	Narzêdzie antyspamowe
 Name:		mailfilter
 Version:	0.6
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	00066598d56cd2d9d3ac5c4b43cf1638
 Source1:	%{name}-pl.po
+Patch0:		%{name}-home_etc.patch
 URL:		http://mailfilter.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -40,6 +41,7 @@ zostaje usuniêty bezpo¶rednio na serwerze pocztowym.
 
 %prep
 %setup -q
+%patch0 -p1
 install %{SOURCE1} po/pl.po
 
 %build
