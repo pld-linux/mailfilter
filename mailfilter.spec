@@ -29,7 +29,7 @@ connections via modem, ISDN, etc.
 Mailfilter connects to any POP3 mail box and compares part of its
 content to a set of user defined filter rules. That way the spam gets
 deleted directly on the mail server.
-		  
+
 %description -l pl
 Mailfilter jest elastycznym narzêdziem dla systemów UNIXopodobnych,
 s³u¿±cym do pozbywania siê niechcianego spamu przed pobraniem go na
