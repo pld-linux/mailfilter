@@ -1,13 +1,12 @@
 Summary:	Antispam utility
 Summary(pl):	Narzêdzie antyspamowe
 Name:		mailfilter
-Version:	0.5.0
+Version:	0.5.1
 Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	a7c87ea40e7fb0078aa4f20fea58a6f2
-Patch0:		%{name}-aclocal.patch
+# Source0-md5:	de208957b2aaaffe26c0c54c83e2c503
 URL:		http://mailfilter.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -40,10 +39,10 @@ zostaje usuniêty bezpo¶rednio na serwerze pocztowym.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 rm -f missing
+%{__gettextize}
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
