@@ -5,7 +5,6 @@ Version:	0.5.0
 Release:	1
 License:	GPL
 Group:		Applications/Mail
-Vendor:		Andreas Bauer <baueran@in.tum.de>
 Source0:	http://prdownloads.sourceforge.net/mailfilter/%{name}-%{version}.tar.gz
 Patch0:		%{name}-aclocal.patch
 URL:		http://mailfilter.sourceforge.net/
