@@ -10,15 +10,4 @@ diff -urN mailfilter-0.5.1.orig/configure.ac mailfilter-0.5.1/configure.ac
  AM_GNU_GETTEXT
  AM_GNU_GETTEXT_VERSION(0.11.5)
  
-diff -urN mailfilter-0.5.1.orig/doc/win_configure.in mailfilter-0.5.1/doc/win_configure.in
---- mailfilter-0.5.1.orig/doc/win_configure.in	2002-08-18 09:02:32.000000000 +0200
-+++ mailfilter-0.5.1/doc/win_configure.in	2003-07-24 00:02:46.000000000 +0200
-@@ -48,7 +48,7 @@
- AC_CHECK_HEADER(getopt.h)
- 
- dnl GNU gettext
--ALL_LINGUAS="de el es fr it pt_BR ru"
-+ALL_LINGUAS="de el es fr it pl pt_BR ru"
- AM_GNU_GETTEXT
- 
- dnl Checks for typedefs, structures, and compiler characteristics.
+
