@@ -5,7 +5,7 @@ Version:	0.5.0
 Release:	1
 License:	GPL
 Group:		Applications/Mail
-Source0:	http://cesnet.dl.sourceforge.net/sourceforge/mailfilter/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	a7c87ea40e7fb0078aa4f20fea58a6f2
 Patch0:		%{name}-aclocal.patch
 URL:		http://mailfilter.sourceforge.net/
