@@ -1,0 +1,11 @@
+diff -urN mailfilter-0.5.0.orig/configure.in mailfilter-0.5.0/configure.in
+--- mailfilter-0.5.0.orig/configure.in	Sat Sep 14 10:46:22 2002
++++ mailfilter-0.5.0/configure.in	Wed Dec 18 19:17:23 2002
+@@ -30,7 +30,6 @@
+ AC_INIT(src/Account.cc)
+ AM_INIT_AUTOMAKE(mailfilter, 0.5.0)
+ AM_MAINTAINER_MODE
+-AM_ACLOCAL_INCLUDE(macros)
+ AM_CONFIG_HEADER(config.h)
+ 
+ dnl Checks for programs.
