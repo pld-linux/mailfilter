@@ -1,0 +1,25 @@
+diff -Nru mailfilter-0.6.orig/src/mailfilter.cc mailfilter-0.6/src/mailfilter.cc
+--- mailfilter-0.6.orig/src/mailfilter.cc	2003-10-20 12:17:04.000000000 +0200
++++ mailfilter-0.6/src/mailfilter.cc	2003-11-16 14:20:34.000000000 +0100
+@@ -174,16 +174,18 @@
+   try {
+     // Locate .mailfilterrc depending on whether the user gave one on the command line or not
+     if (!mailfilterrc.length ()) {
+-      if (getenv ("HOME")) {
++      char *home = getenv("HOME_ETC");
++      if (home == NULL) home = getenv("HOME");		
++      if (home != NULL) {
+ 	ifstream checkRcfile(((string) (prefsFile = 
+-					(string) getenv ("HOME") + 
++					(string) home + 
+ 					(string) "/.mailfilterrc")).c_str ());
+ 	
+ 	// Windows people have trouble with the leading dot
+ 	// so here's an extra check, in case .mailfilterrc
+ 	// can't be located in the user's home directory
+ 	if (!checkRcfile.is_open ())
+-	  prefsFile = (string) getenv ("HOME") + (string) "/_mailfilterrc";
++	  prefsFile = (string) home + (string) "/_mailfilterrc";
+ 	
+ 	checkRcfile.close ();
+       }
