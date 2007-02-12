@@ -1,5 +1,5 @@
 Summary:	Antispam utility
-Summary(pl):	Narzêdzie antyspamowe
+Summary(pl.UTF-8):   NarzÄ™dzie antyspamowe
 Name:		mailfilter
 Version:	0.6.2
 Release:	1
@@ -30,14 +30,14 @@ Mailfilter connects to any POP3 mail box and compares part of its
 content to a set of user defined filter rules. That way the spam gets
 deleted directly on the mail server.
 
-%description -l pl
-Mailfilter jest elastycznym narzêdziem dla systemów UNIXopodobnych,
-s³u¿±cym do pozbywania siê niechcianego spamu przed pobraniem go na
-lokalny komputer z sieci. Obs³uguje wiele kont POP3 i jest nadzwyczaj
-u¿yteczny dla po³±czeñ wdzwanianych przez modem, ISDN etc.
-Mailfilter ³±czy siê z kontem POP3 i porównuje czê¶ci jego zawarto¶ci
-z zestawem regu³ek zdefiniowanych przez u¿ytkownika. W ten sposób spam
-zostaje usuniêty bezpo¶rednio na serwerze pocztowym.
+%description -l pl.UTF-8
+Mailfilter jest elastycznym narzÄ™dziem dla systemÃ³w UNIXopodobnych,
+sÅ‚uÅ¼Ä…cym do pozbywania siÄ™ niechcianego spamu przed pobraniem go na
+lokalny komputer z sieci. ObsÅ‚uguje wiele kont POP3 i jest nadzwyczaj
+uÅ¼yteczny dla poÅ‚Ä…czeÅ„ wdzwanianych przez modem, ISDN etc.
+Mailfilter Å‚Ä…czy siÄ™ z kontem POP3 i porÃ³wnuje czÄ™Å›ci jego zawartoÅ›ci
+z zestawem reguÅ‚ek zdefiniowanych przez uÅ¼ytkownika. W ten sposÃ³b spam
+zostaje usuniÄ™ty bezpoÅ›rednio na serwerze pocztowym.
 
 %prep
 %setup -q
