@@ -1,5 +1,5 @@
 Summary:	Antispam utility
-Summary(pl.UTF-8):   Narzędzie antyspamowe
+Summary(pl.UTF-8):	Narzędzie antyspamowe
 Name:		mailfilter
 Version:	0.6.2
 Release:	1
